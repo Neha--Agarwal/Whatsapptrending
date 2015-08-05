@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/submit" android:title="Submit"
+        android:orderInCategory="100" app:showAsAction="always" />
+    <item android:id="@+id/register" android:title="Register"
+    android:orderInCategory="100" app:showAsAction="always" />
+    <item android:id="@+id/exit" android:title="Exit"
+        android:orderInCategory="100" app:showAsAction="ifRoom" />
+</menu>
